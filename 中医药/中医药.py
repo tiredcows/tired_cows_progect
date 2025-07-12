@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 中药学爬虫脚本 - 中医世家网站版本
-作者: Claude
+作者: tired_cowds
 功能: 爬取中医世家网站(zysj.com.cn)的中药材数据
 网站结构:
 1. 索引页面: https://www.zysj.com.cn/lilunshuji/zhongyaoxue/index.html
