@@ -1,0 +1,22 @@
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple    --- 清华源
+
+清华大学镜像站：
+地址：https://pypi.tuna.tsinghua.edu.cn/simple
+阿里云镜像：
+地址：http://mirrors.aliyun.com/pypi/simple/
+豆瓣（DouBan）镜像：
+地址：http://pypi.douban.com/simple/
+中国科学技术大学（USTC）：
+地址：http://pypi.mirrors.ustc.edu.cn/simple/
+华为云镜像：
+地址：https://repo.huaweicloud.com/repository/pypi/simple/
+腾讯云镜像：
+地址：https://mirrors.cloud.tencent.com/pypi/simple/
+北京大学镜像站：
+地址：http://pypi.mirrors.163.com/simple/
+中科大镜像站：
+地址：http://pypi.mirrors.ustc.edu.cn/simple/
+
+
+
+
