@@ -1,0 +1,24 @@
+[project]
+authors = [{name = "Jason-W507", email = "mymail12290@163.com"}]
+dependencies = []
+name = "I_Ching_Divination"
+requires-python = ">= 3.11"
+version = "0.1.0"
+
+[build-system]
+build-backend = "hatchling.build"
+requires = ["hatchling"]
+
+[tool.pixi.workspace]
+channels = ["conda-forge"]
+platforms = ["win-64"]
+
+[tool.pixi.pypi-dependencies]
+i_ching_divination = { path = ".", editable = true }
+
+[tool.pixi.tasks]
+
+[tool.pixi.dependencies]
+python = "3.12.*"
+requests = ">=2.32.3,<3"
+bs4 = ">=4.13.4,<5"
