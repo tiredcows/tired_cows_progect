@@ -19,19 +19,6 @@ headers = {
     "sec-ch-ua-platform": "\"Windows\""
 }
 cookies = {
-    "GSI": "#rf_syztwlb@210720a#sl_zdjlwxbdsb@211011l#rf_syjgwlb@220829a#rf_tsmbyrk@220309b",
-    "fspop": "test",
-    "_lxsdk_cuid": "19675ef0fe4c8-074135aa4d81d7-26011c51-384000-19675ef0fe4c8",
-    "_lxsdk": "19675ef0fe4c8-074135aa4d81d7-26011c51-384000-19675ef0fe4c8",
-    "_hc.v": "79f99111-87ca-4d12-30ee-b05c1875ee97.1745735324",
-    "WEBDFPID": "5xwx54z1u5u5582609328476zv6856y380324vu8x779795852x3216w-1745821723989-1745735323505QCSEYKMfd79fef3d01d5e9aadc18ccd4d0c95071710",
-    "qruuid": "8d974a3e-a929-4efe-803b-fc9f91b5ca8c",
-    "dper": "0202ba2568acdb9dfe9c4475c7334cbab796c131dc451a1d121f146e3c1a9c625e40c25fb37cd880a7afb89d7aa9bc9aaef1aadf4d9cb7eaa0240000000092280000d57dca352901b46c07aa30dd3910d663b7613c106c9457a8fe97fe13224da188ad85dca6e7306cf642c770f92872e276",
-    "__CACHE@is_login": "true",
-    "__CACHE@referer": "https://account.dianping.com/",
-    "logan_session_token": "sypnvl8pwi636xzd14no",
-    "logan_custom_report": "",
-    "_lxsdk_s": "19676322b54-732-0e3-c33%7C%7C33"
 }
 url = "https://www.dianping.com/shop/Gajv7d7tSl1XxTyD"
 params = {
@@ -76,14 +63,6 @@ headers1 = {
     "wechatversion": "undefined"
 }
 cookies = {
-    "fspop": "test",
-    "_lxsdk_cuid": "19675ef0fe4c8-074135aa4d81d7-26011c51-384000-19675ef0fe4c8",
-    "_lxsdk": "19675ef0fe4c8-074135aa4d81d7-26011c51-384000-19675ef0fe4c8",
-    "_hc.v": "79f99111-87ca-4d12-30ee-b05c1875ee97.1745735324",
-    "WEBDFPID": "5xwx54z1u5u5582609328476zv6856y380324vu8x779795852x3216w-1745821723989-1745735323505QCSEYKMfd79fef3d01d5e9aadc18ccd4d0c95071710",
-    "qruuid": "8d974a3e-a929-4efe-803b-fc9f91b5ca8c",
-    "dper": "0202ba2568acdb9dfe9c4475c7334cbab796c131dc451a1d121f146e3c1a9c625e40c25fb37cd880a7afb89d7aa9bc9aaef1aadf4d9cb7eaa0240000000092280000d57dca352901b46c07aa30dd3910d663b7613c106c9457a8fe97fe13224da188ad85dca6e7306cf642c770f92872e276",
-    "_lxsdk_s": "19676322b54-732-0e3-c33%7C%7C46"
 }
 url = "https://m.dianping.com/ugc/review/shop/shopreview"
 params = {
