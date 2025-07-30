@@ -259,16 +259,6 @@ def get_yzm_v2(headers, data1, phone):
 def band(card_name, card_pwd, pay_password, token):
     body = js.call("get_body", card_name, card_pwd, pay_password)
     headers = {
-        'authority': 'member-yxapp.feiniu.com',
-        'accept': '*/*',
-        'accept-language': 'zh-CN,zh;q=0.9',
-        'content-type': 'application/x-www-form-urlencoded',
-        'referer': 'https://servicewechat.com/wx08cc6bd15fabfa53/155/page-frame.html',
-        'sec-fetch-dest': 'empty',
-        'sec-fetch-mode': 'cors',
-        'sec-fetch-site': 'cross-site',
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 MicroMessenger/7.0.20.1781(0x6700143B) NetType/WIFI MiniProgramEnv/Windows WindowsWechat/WMPF WindowsWechat(0x63090b13) XWEB/9129',
-        'xweb_xhr': '1',
     }
 
     data1 = {
