@@ -3,38 +3,6 @@ var CryptoJS = require('crypto-js')
 const base64 = require('base64-js');
 
 function get_log_params(data) {
-    // JSON 对象
-    // var data = {
-    //     addrId: '',
-    //     apiVersion: 'a1.68',
-    //     appVersion: '2.0.2',
-    //     body: {
-    //         cid: 'f1ae55cdba3e8e3a5dcb8829c301a9f8',
-    //         client: '1',
-    //         deviceType: 'Google Pixel 4',
-    //         isNewStore: 0,
-    //         password: 'Axu28MpzF3GgaPeqYN7S13VCFVmWH5yjjJwemHSxGIU=',
-    //         phoneType: '0',
-    //         picCaptcha: 'p7rq',
-    //         storeCode: '2701',
-    //         username: '/6W/tFjPb+Xsa4hqtKzdiRzGRspxF6py5nX0fM5tAOA='
-    //     },
-    //     businessId: '27010001',
-    //     channel: 'WanDouJia',
-    //     deliveryCircleType: '2',
-    //     deviceId: 'ecfd56c4ed50bbb4-56c4-ecfd-bbb4-ed50',
-    //     dockCode: '270120001',
-    //     httpsEnable: 1,
-    //     isSimulator: false,
-    //     networkType: 'WIFI',
-    //     osType: 1,
-    //     reRule: '3',
-    //     scopeType: 1,
-    //     source: 'yx',
-    //     time: '20250721170802',
-    //     token: '0c5dda3f9cfd2f0bc859d49976f9b358',
-    //     viewSize: '1080x2236'
-    // };
     // // 额外参数
     // var additionalParams = ['false', '1080x2236', 'WIFI', '20250721170802'];
     var additionalParams = ['false', data['viewSize'], data['networkType'], data['time']]
@@ -64,13 +32,6 @@ function generateKeyAndIV() {
     const key = crypto.createHash('sha256').update(secret).digest();
     // 模拟 Java 的 SecureRandom 生成 IV (16字节)
     const iv = crypto.randomBytes(16);
-
-    // const keyHex = 'd2f44b44b7e3316165309e0e7a910f50726c8ac367780103a7067a9551592dbb';
-    // const ivHex = '7bd7ccad1b48e16def037d72119f21b8';
-    // // 转换密钥和IV为Buffer
-    // const key = Buffer.from(keyHex, 'hex');
-    // const iv = Buffer.from(ivHex, 'hex');
-
     return {key, iv};
 }
 
