@@ -151,6 +151,3 @@ function get_params(data) {
     paramsMD5 = CryptoJS.enc.Base64.stringify(CryptoJS.HmacSHA256(t, o))
     return paramsMD5
 }
-
-
-console.log(encryptAesCbc('123456'));
