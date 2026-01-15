@@ -1,2 +1,0 @@
-requests==2.26.0
-pyexecjs==1.4.0
